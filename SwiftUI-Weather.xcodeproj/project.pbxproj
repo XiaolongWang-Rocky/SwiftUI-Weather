@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		C2DEFE92C868E9393FE039BE /* Pods_SwiftUI_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692E080FC966095675AE21B9 /* Pods_SwiftUI_Weather.framework */; };
+		EF04B7A12BB2C449002AABA4 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04B7A02BB2C449002AABA4 /* BackgroundView.swift */; };
+		EF04B7A32BB2C737002AABA4 /* CityTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04B7A22BB2C737002AABA4 /* CityTextView.swift */; };
+		EF04B7A52BB2C837002AABA4 /* MainWeatherStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04B7A42BB2C837002AABA4 /* MainWeatherStatusView.swift */; };
 		EF42D38A2BB041C100D60E91 /* SwiftUI_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42D3892BB041C100D60E91 /* SwiftUI_WeatherApp.swift */; };
-		EF42D38C2BB041C100D60E91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42D38B2BB041C100D60E91 /* ContentView.swift */; };
+		EF42D38C2BB041C100D60E91 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42D38B2BB041C100D60E91 /* HomeView.swift */; };
 		EF42D38E2BB041C300D60E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF42D38D2BB041C300D60E91 /* Assets.xcassets */; };
 		EF42D3912BB041C300D60E91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF42D3902BB041C300D60E91 /* Preview Assets.xcassets */; };
+		EF5C805C2BB1924300A2D293 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C805B2BB1924300A2D293 /* DailyWeatherView.swift */; };
+		EF5C805F2BB1926F00A2D293 /* DailyWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C805E2BB1926F00A2D293 /* DailyWeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1ED29DDA1B6A460EC3D5EA2B /* Pods-SwiftUI-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Weather.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Weather/Pods-SwiftUI-Weather.debug.xcconfig"; sourceTree = "<group>"; };
 		2B4AE69420EC9D1860544418 /* Pods-SwiftUI-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Weather.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Weather/Pods-SwiftUI-Weather.release.xcconfig"; sourceTree = "<group>"; };
 		692E080FC966095675AE21B9 /* Pods_SwiftUI_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF04B7A02BB2C449002AABA4 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		EF04B7A22BB2C737002AABA4 /* CityTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTextView.swift; sourceTree = "<group>"; };
+		EF04B7A42BB2C837002AABA4 /* MainWeatherStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherStatusView.swift; sourceTree = "<group>"; };
 		EF42D3862BB041C100D60E91 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF42D3892BB041C100D60E91 /* SwiftUI_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherApp.swift; sourceTree = "<group>"; };
-		EF42D38B2BB041C100D60E91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF42D38B2BB041C100D60E91 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EF42D38D2BB041C300D60E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF42D3902BB041C300D60E91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF5C805B2BB1924300A2D293 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
+		EF5C805E2BB1926F00A2D293 /* DailyWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +61,6 @@
 				1ED29DDA1B6A460EC3D5EA2B /* Pods-SwiftUI-Weather.debug.xcconfig */,
 				2B4AE69420EC9D1860544418 /* Pods-SwiftUI-Weather.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,8 +85,9 @@
 		EF42D3882BB041C100D60E91 /* SwiftUI-Weather */ = {
 			isa = PBXGroup;
 			children = (
+				EF5C805D2BB1924F00A2D293 /* Model */,
+				EF5C805A2BB1912900A2D293 /* View */,
 				EF42D3892BB041C100D60E91 /* SwiftUI_WeatherApp.swift */,
-				EF42D38B2BB041C100D60E91 /* ContentView.swift */,
 				EF42D38D2BB041C300D60E91 /* Assets.xcassets */,
 				EF42D38F2BB041C300D60E91 /* Preview Content */,
 			);
@@ -90,6 +100,26 @@
 				EF42D3902BB041C300D60E91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF5C805A2BB1912900A2D293 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF42D38B2BB041C100D60E91 /* HomeView.swift */,
+				EF5C805B2BB1924300A2D293 /* DailyWeatherView.swift */,
+				EF04B7A02BB2C449002AABA4 /* BackgroundView.swift */,
+				EF04B7A22BB2C737002AABA4 /* CityTextView.swift */,
+				EF04B7A42BB2C837002AABA4 /* MainWeatherStatusView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF5C805D2BB1924F00A2D293 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C805E2BB1926F00A2D293 /* DailyWeatherModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,8 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF42D38C2BB041C100D60E91 /* ContentView.swift in Sources */,
+				EF04B7A12BB2C449002AABA4 /* BackgroundView.swift in Sources */,
+				EF42D38C2BB041C100D60E91 /* HomeView.swift in Sources */,
+				EF04B7A32BB2C737002AABA4 /* CityTextView.swift in Sources */,
+				EF5C805C2BB1924300A2D293 /* DailyWeatherView.swift in Sources */,
+				EF5C805F2BB1926F00A2D293 /* DailyWeatherModel.swift in Sources */,
 				EF42D38A2BB041C100D60E91 /* SwiftUI_WeatherApp.swift in Sources */,
+				EF04B7A52BB2C837002AABA4 /* MainWeatherStatusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
